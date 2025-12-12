@@ -74,5 +74,6 @@ public abstract class User {
 		return "User [id=" + id + ", nom=" + nom + ", email=" + email + "]";
 	}
 
+
 }
 

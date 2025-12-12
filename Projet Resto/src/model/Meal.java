@@ -118,4 +118,5 @@ public class Meal {
 				+ ", heureDebut=" + heureDebut + ", heureFin=" + heureFin + ", disponible=" + disponible + "]";
 	}
 	
+
 }

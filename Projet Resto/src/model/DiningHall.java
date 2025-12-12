@@ -62,7 +62,6 @@ public class DiningHall {
 		return "DiningHall [nom=" + nom + ", hallId=" + hallId + ", capacite=" + capacite + ", placesrestantes="
 				+ placesrestantes + "]";
 	}
-	
 
 }
 
