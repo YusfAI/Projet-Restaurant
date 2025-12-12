@@ -73,13 +73,6 @@ public abstract class User {
 	public String toString() {
 		return "User [id=" + id + ", nom=" + nom + ", email=" + email + "]";
 	}
-	
-	
-	
-	
-	
-	
-	
 
 }
 
