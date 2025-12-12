@@ -11,7 +11,7 @@ import java.util.List;
 public class MealService {
     
     /**
-     * Récupère tous les repas disponibles
+     * Récupère tous les repas disponibless
      * @return Liste de tous les repas
      */
     public List<Meal> getAllMeals() {
