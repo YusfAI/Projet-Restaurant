@@ -38,5 +38,5 @@ public class Staff extends User{
 	public String getRole() {
 		return "STAFF";
 	}
-
+	
 }

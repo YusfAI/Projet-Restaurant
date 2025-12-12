@@ -117,5 +117,5 @@ public class Meal {
 		return "Meal [mealId=" + mealId + ", description=" + description + ", prix=" + prix + ", dateRepas=" + dateRepas
 				+ ", heureDebut=" + heureDebut + ", heureFin=" + heureFin + ", disponible=" + disponible + "]";
 	}
-
+	
 }
