@@ -104,6 +104,12 @@ public class Reservation {
 		this.status = status;
 	}
 	
+	@Override
+	public String toString() {
+		return "Reservation [reservationId=" + reservationId + ", user=" + user + ", meal=" + meal + ", date=" + date
+				+ ", heure=" + heure + ", nbplaces=" + nbplaces + ", status=" + status + "]";
+	}
+	
 	
 	
 	

@@ -15,8 +15,6 @@ public class Student extends User {
 		this.niveau = niveau;
 		this.specialite = specialite;
 	}
-	
-	//constructeur non  parametré 
 
 	//getters et setters
 	public String getNumCarte() {

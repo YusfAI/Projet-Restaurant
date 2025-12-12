@@ -7,7 +7,7 @@ public class DiningHall {
 	private int capacite; // la capcite totale de la salle
 	private int placesrestantes;
 	
-	
+	//constructeur parametré
 	public DiningHall(String nom, String hallId, int capacite, int placesrestantes) {
 		super();
 		this.nom = nom;// a discuter
