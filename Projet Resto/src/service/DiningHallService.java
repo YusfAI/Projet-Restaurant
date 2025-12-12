@@ -9,7 +9,7 @@ import java.util.List;
 public class DiningHallService {
     
     /**
-     * Récupère toutes les salles de restaurationn
+     * Récupère toutes les salles de restauration
      * @return Liste de toutes les salles
      */
     public List<DiningHall> getAllDiningHalls() {
