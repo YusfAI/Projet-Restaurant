@@ -1,5 +1,17 @@
-package view;
+<VBox spacing="15" alignment="CENTER"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="controller.InscriptionController">
 
-public class AdminView {
+    <Label text="Restaurant Universitaire IHEC" styleClass="label-title"/>
+    <Label text="Inscription pour le repas du lendemain"/>
 
-}
+    <TextField fx:id="txtCin" promptText="CIN"/>
+    <TextField fx:id="txtNom" promptText="Nom"/>
+    <TextField fx:id="txtPrenom" promptText="Prénom"/>
+    <Button text="Valider l'inscription" onAction="#inscrire"/>
+    <Label fx:id="lblMessage" styleClass="message"/>
+
+    <Label text="Menu de la semaine:"/>
+    <TextArea fx:id="txtMenuSemaineEtudiant" prefWidth="300" prefHeight="150" editable="false"/>
+    <Button text="Voir le menu" onAction="#afficherMenu"/>
+</VBox>
