@@ -1,0 +1,24 @@
+.root {
+    -fx-font-family: "Segoe UI";
+    -fx-background-color: #f4f6f9;
+}
+
+.label-title {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.button {
+    -fx-background-color: #1e90ff;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-pref-width: 220px;
+}
+
+.message {
+    -fx-font-weight: bold;
+    -fx-text-fill: green;
+}
