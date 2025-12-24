@@ -1,42 +1,34 @@
 package model;
 
-public class Staff extends User{
-	
-	private String service;  // cuisine,service,...
-	private boolean actif; //salarie est actif ou non 
-	
-	//constructeur parametré
-	public Staff(String id, String nom, String email, String password, String role, String service, boolean actif) {
-		
-		super(id, nom, email, password);
+public class Staff {
+    private String nom;
+    private String prenom;
 
-		this.service = service;
-		this.actif = actif;
-	}
+    public Staff(String nom, String prenom) {
+        this.nom = nom;
+        this.prenom = prenom;
+    }
 
+    public String getNom() { 
+    	return nom; 
+    }
+    
+    public String getPrenom() { 
+    	return prenom; 
+    }
+    
+    public void setPrenom(String prenom) { 
+    	this.prenom = prenom; 
+    	}
+    
+    public void setNom(String nom) { 
+    	this.nom = nom; 
+    }
 
-	public String getService() {
-		return service;
-	}
-
-
-	public void setService(String service) {
-		this.service = service;
-	}
-
-
-	public boolean isActif() {
-		return actif;
-	}
-
-
-	public void setActif(boolean actif) {
-		this.actif = actif;
-	}
-	//pour identifier le type d'utilisateur 
 	@Override
-	public String getRole() {
-		return "STAFF";
+	public String toString() {
+		return "Staff [nom=" + nom + ", prenom=" + prenom + "]";
 	}
-	
+    
 }
+
